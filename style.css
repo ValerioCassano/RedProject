@@ -1,0 +1,225 @@
+.imglogo{
+    height: 100px;
+    
+}
+
+*{
+    font-family: 'Nova Square', cursive;
+}
+h1,h2,h3{
+    font-family: 'Nova Square', cursive;
+    color: darkred ;
+}
+
+p{
+    font-family: 'Rajdhani';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+header {
+    background: url(./mountains2.png), linear-gradient(white, rgba(0,0,0,0)), url(./switzerland-862870_1920.jpg);
+    min-height: 90vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkred;
+}
+
+.titolo{
+    position:absolute;
+    height:90%;
+    width:97%;
+    letter-spacing: 10px;
+    
+}
+
+.diop{
+    position:relative;
+}
+
+.colonna-info{
+    font-style: italic;
+    width: 30%;
+    position: absolute;
+    bottom: 102%;
+    z-index: 800px;
+}
+
+
+
+div.virgole>p::before{
+    content:'"' ;
+    text-decoration-style: solid;
+    font-size:60px;
+    color: darkred;
+    position: absolute;
+    left: -5%;
+    bottom: 10%;
+    font-family: 'Nova Square',sans-serif;
+    font-style: italic;
+}
+
+
+
+
+div.virgole>p::after{
+    content:'"' ;
+    text-decoration-style: solid;
+    font-size:60px;
+    color: darkred;
+    position: absolute;
+    right: 20;
+    bottom: -35%; 
+    font-family: 'Nova Square',sans-serif;
+    font-style: italic;
+}
+
+
+.btn{
+    background-color: darkred;
+    color: white;
+    border-radius: 0%;
+    
+}
+
+#colin{
+    background-image:url(./single.png);    
+    height: 80vh; 
+    background-position-y: bottom;
+    background-position-x: right; 
+    background-repeat: no-repeat; 
+    
+}
+
+
+
+main{
+    background: url(trees2.png ) ,#ececec;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 100% 50%;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'Nova Square', cursive;
+    color: darkred ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#pippo{
+    background-color:  #ececec;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+}
+
+
+.cerchio{
+    width: 150px;
+    height: 150px;
+    border-radius:999em;   
+    -moz-border-radius:999em; 
+    -webkit-border-radius:999em;
+    -o-border-radius: 999em; 
+    align-self: center;
+    border: solid darkred;
+    padding: 4px;
+    background-position: center;
+    background-color: #ececec;
+    
+}
+
+.iconz{
+    justify-items:center;
+}
+
+
+
+
+.cerchio1{
+    width: 200px;
+    height: 200px;
+    border-radius:999em;   
+    -moz-border-radius:999em; 
+    -webkit-border-radius:999em;
+    -o-border-radius: 999em; 
+    align-self: center;
+    border: solid darkred;
+    padding: 4px;
+    background-position: center;
+    background-color: #ececec;
+    
+}
+
+.cerchio2{
+    width: 200px;
+    height: 200px;
+    border-radius:999em;   
+    -moz-border-radius:999em; 
+    -webkit-border-radius:999em;
+    -o-border-radius: 999em; 
+    align-self: center;
+    border: solid darkred;
+    padding: 4px;
+    background-position: center;
+    background-color: #ececec;
+}
+
+
+#franco{
+    background: url(./other.png ) ,#ececec;
+    min-height: 96vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 100% 50%;
+}
+
+footer{
+    color: white;
+
+}
+
+#mario  {
+    color: white;
+    background-color: darkred;
+}
+
+
+.card-text{
+    border-bottom:  3px solid darkred;
+    align-items: center;
+    position: relative;
+}
+
+.card-text::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    bottom: -10px;
+} 
